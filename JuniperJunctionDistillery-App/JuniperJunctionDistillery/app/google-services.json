@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1027015636392",
+    "project_id": "juniper-junction-distill-2b013",
+    "storage_bucket": "juniper-junction-distill-2b013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027015636392:android:89357d93f70f9ca51fd99d",
+        "android_client_info": {
+          "package_name": "com.example.juniperjunctiondistillery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027015636392-19h2401gteei7h9dlbas3vgort1jfq8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLGwN0-4xGg1qBvYCiUDboefDEzY68A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027015636392-19h2401gteei7h9dlbas3vgort1jfq8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

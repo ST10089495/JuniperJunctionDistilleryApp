@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JuniperJunctionDistillery"
+        tools:targetApi="31">
+        <activity
+            android:name=".menu.suppliers.EditSupplierInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SupplierInvoiceDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SupplierDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SupplierInvoiceListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SupplierInvoiceCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.bookings.EditBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.bookings.BookingDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.AddSupplierInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.EditSupplierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SuppliersListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.AddSupplierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.AddSuppliersCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.suppliers.SuppliersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.employee.EmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.employee.EditEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.EditStockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.StockListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.AddStockCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.StockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.StockDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.employee.AddEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.stock.AddStockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.employee.EmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.orders.OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.bookings.BookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".menu.suppliers.AddSupplierInvoiceActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="555dp"
+            android:src="@drawable/supp_img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="399dp"
+            android:src="@drawable/supp_img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myImageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/app2"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Supplier Invoice"/>
+    <TextView
+        android:id="@+id/SuppTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="160dp"
+        android:background="@color/grey"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_down_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:hint="Supplier"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/SuppCatTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/SuppTV"
+        android:layout_marginTop="19dp"
+        android:background="@color/grey"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_down_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:hint="Category"
+        android:gravity="center_vertical"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SuppDelivNotesTil"
+        android:layout_marginTop="19dp"
+        android:layout_below="@id/SuppCatTV"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/SuppDelivNotesEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery Notes"
+            android:inputType="textCapCharacters"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SuppPriceTil"
+        android:layout_marginTop="19dp"
+        android:layout_below="@id/SuppDelivNotesTil"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/SuppPriceEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Price"
+            android:inputType="textCapCharacters"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SuppDispatchTil"
+        android:layout_marginTop="19dp"
+        android:layout_below="@id/SuppPriceTil"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/SuppDispatchEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dispatch Date"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SuppDelivTil"
+        android:layout_marginTop="19dp"
+        android:layout_below="@id/SuppDispatchTil"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/SuppDelivEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery Date"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/addSuppInvBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:backgroundTint="@color/app2"
+        android:textSize="17dp"
+        android:paddingRight="30dp"
+        android:layout_below="@id/SuppDelivTil"
+        android:paddingLeft="30dp"
+        android:textColor="@color/app"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

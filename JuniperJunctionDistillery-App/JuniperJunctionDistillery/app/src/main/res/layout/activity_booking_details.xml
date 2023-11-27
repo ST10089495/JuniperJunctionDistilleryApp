@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".menu.bookings.BookingDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="250dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginBottom="380dp"
+            android:background="@drawable/account_img" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/shape_edittext02"
+            android:layout_below="@id/NameTV">
+            <TextView
+                android:id="@+id/NameTV"
+                style="@style/TextAppearance.MaterialComponents.Headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/app3"
+                android:text="Booking Name"/>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/emailLabel"
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:text="Email:" />
+
+                <TextView
+                    android:id="@+id/emailTV"
+                    style="@style/TextAppearance.MaterialComponents.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="30dp"
+                    android:layout_weight="1"
+                    android:text="N/A" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/dateLabel"
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:text="Date:" />
+
+                <TextView
+                    android:id="@+id/dateTV"
+                    style="@style/TextAppearance.MaterialComponents.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="30dp"
+                    android:textSize="15sp"
+                    android:text="N/A" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/timeLabel"
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Time:" />
+
+                <TextView
+                    android:id="@+id/timeTV"
+                    style="@style/TextAppearance.MaterialComponents.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_marginStart="30dp"
+                    android:text="N/A" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/ExperiLabel"
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:text="Experience:" />
+
+                <TextView
+                    android:id="@+id/ExperiTV"
+                    style="@style/TextAppearance.MaterialComponents.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="30dp"
+                    android:layout_weight="1"
+                    android:text="N/A" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</RelativeLayout>

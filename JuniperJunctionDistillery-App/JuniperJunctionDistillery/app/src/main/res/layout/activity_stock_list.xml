@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".menu.stock.StockListActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="195dp"
+            android:src="@drawable/stock_img7" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="185dp"
+            android:src="@drawable/stock_img8" />
+        <ImageView
+            android:id="@+id/myImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="271dp"
+            android:src="@drawable/stock_img6" />
+
+
+    </FrameLayout>
+    <EditText
+        android:id="@+id/searchEt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:hint="Search"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="@color/app" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stockRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchEt1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_stock" />
+</RelativeLayout>
