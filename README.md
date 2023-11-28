@@ -22,8 +22,9 @@ The Juniper Junction Distillery Android App is designed to streamline the manage
 
 ### Prerequisites
 
-- Android Studio
-- Kotlin
+-[Android Studio](https://developer.android.com/studio): The official integrated development environment (IDE) for Android app development.
+
+-[Kotlin](https://kotlinlang.org/): The programming language used for developing the Android app.
 
 ### Installation
 
