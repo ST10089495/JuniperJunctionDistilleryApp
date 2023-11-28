@@ -8,40 +8,15 @@ The Juniper Junction Distillery Android App is designed to streamline the manage
 
 ## Table of Contents
 
-- [Features](#features)
-- - [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Firebase Setup](#firebase-setup)
   - [Dependancies](#dependancies)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
 - [Contributing](#contributing) 
 - [License](#license)
-
-## Features
-
-- **Gin Tasting and Making Experiences:**
-  - Manage and track bookings from the connected website.
-  
-- **Stock Management:**
-  - Keep track of available gin products.
-  
-- **Supplies and Invoices:**
-  - Manage supplies, create invoices for suppliers and distributors.
-
-- **Employee Management:**
-  - Add, edit, and delete employee details.
-
-## Screenshots
-
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/333a1dbf-9421-435a-9691-36b327feee79)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/5a1e7fd9-4054-403f-b2e8-36d1c6888d19)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/68fa640d-57ef-4934-b2ec-d8d9a50ba26d)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/3c31c2db-6e14-43a8-860d-c3e65e2a6e5b)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/5ea034cd-d700-4e41-8854-d06a3b7fb0be)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/063b0f3d-2a14-4aa9-a987-f3b1075fa536)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/8f14b3a4-858c-4a20-8fdb-39dee5691750)
-![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/dda5e1a1-3e74-4b4c-a160-24de2f13544f)
 
 ## Getting Started
 
@@ -109,6 +84,19 @@ Here are the main dependencies used in this project:
 
 Refer to the [official Firebase documentation](https://firebase.google.com/docs/android/setup) for more details on setting up Firebase in your Android app.
 
+## Features
+
+- **Gin Tasting and Making Experiences:**
+  - Manage and track bookings from the connected website.
+  
+- **Stock Management:**
+  - Keep track of available gin products.
+  
+- **Supplies and Invoices:**
+  - Manage supplies, create invoices for suppliers and distributors.
+
+- **Employee Management:**
+  - Add, edit, and delete employee details.
 ## Usage
 
 ### 1. Gin Tasting and Making Experiences
@@ -161,6 +149,17 @@ Refer to the [official Firebase documentation](https://firebase.google.com/docs/
   - Access the menu for additional options and settings.
 
 ![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/7cb27939-82bb-4ee4-833e-45221e4a5280)
+
+## Screenshots
+
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/333a1dbf-9421-435a-9691-36b327feee79)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/5a1e7fd9-4054-403f-b2e8-36d1c6888d19)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/68fa640d-57ef-4934-b2ec-d8d9a50ba26d)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/3c31c2db-6e14-43a8-860d-c3e65e2a6e5b)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/5ea034cd-d700-4e41-8854-d06a3b7fb0be)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/063b0f3d-2a14-4aa9-a987-f3b1075fa536)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/8f14b3a4-858c-4a20-8fdb-39dee5691750)
+![image](https://github.com/ST10089495/JuniperJunctionDistilleryApp/assets/126766252/dda5e1a1-3e74-4b4c-a160-24de2f13544f)
 
 ## Contributing
 
