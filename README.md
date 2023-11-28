@@ -55,7 +55,7 @@ The Juniper Junction Distillery Android App is designed to streamline the manage
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/ST10089495/JuniperJunctionDistilleryApp.git
     ```
 2.Open the project in Android Studio.
 
